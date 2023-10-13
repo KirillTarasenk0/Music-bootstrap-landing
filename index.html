@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casteway Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-dark">
+  <header id="header">
+    <div class="container-sm d-flex justify-content-between mt-4">
+      <div>
+        <img src="./images/logo.svg" alt="Logo image"/>
+      </div>
+      <div>
+        <nav>
+          <ul class="d-flex">
+            <li class="list-unstyled p-2"><a class="link__item text-decoration-none white__text" href="#">Home</a></li>
+            <li class="list-unstyled p-2"><a class="link__item text-decoration-none white__text" href="#">Episodes</a></li>
+            <li class="list-unstyled p-2"><a class="link__item text-decoration-none white__text" href="#">About</a></li>
+            <li class="list-unstyled p-2"><a class="link__item text-decoration-none white__text" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container d-flex pt-5 justify-content-around flex-wrap">
+      <div>
+        <div class="">
+          <img style="height: 700px;" class="img-fluid mw-100 col-12" src="./images/person.svg" alt="Person image"/>
+        </div>
+      </div>
+      <div class="d-flex flex-column pt-5 col-4">
+        <h1 class="white__text podcast__title pt-5">Take your podcast to the <span class="podcast__next-decoration">next</span> <span class="podcast__level-decoration">level</span></h1>
+        <div class="pt-5">
+          <p class="mx-2 white__text">Listen on</p>
+          <div class="d-flex flex-row pt-3">
+            <div class="mx-2">
+              <a href="#"><img src="./images/spotify-logo.svg" alt="Spotify logo image"/></a>
+            </div>
+            <div class="mx-2">
+              <a href="#"><img src="./images/pinterest-logo.svg" alt="Pinterest logo image"/></a>
+            </div>
+            <div class="mx-2">
+              <a href="#"><img src="./images/first-radio-logo.svg" alt="Radio app logo image"/></a>
+            </div>
+            <div class="mx-2">
+              <a href="#"><img src="./images/itunes-logo.svg" alt="Itunes logo image"/></a>
+            </div>
+            <div class="mx-2">
+              <a href="#"><img src="./images/second-radio-logo.svg" alt="Radio app logo image"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-content-center pt-5">
+      <div class="episode__cards-container d-flex flex-column">
+        <div class="d-flex justify-content-between">
+          <div>
+            <h2 class="white__text episodes__main-title">Latest episodes</h2>
+          </div>
+          <div class="mt-4">
+            <button class="white__text btn btn-info">View all episodes</button>
+          </div>
+        </div>
+        <div class="d-flex flex-column pt-5">
+          <div class="d-flex episode__card px-4 py-4" style="border-radius: 32px;">
+            <div>
+              <img src="./images/episode-first.svg" alt="First episode image"/>
+            </div>
+            <div class="px-4">
+              <p class="white__text bg-dark d-flex justify-content-center" style="width: 73px; border-radius: 6px;">Gear</p>
+              <p class="white__text pt-4" style="color: #118DA8;">Episode 3</p>
+              <h3 class="white__text episode__card-title">Should you get outboard audio gear?</h3>
+              <p class="white__text episode__card-text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+              <button class="white__text btn btn-info">View Episode Details</button>
+            </div>
+          </div>
+          <div class="d-flex episode__card mt-5 mb-5 px-4 py-4" style="border-radius: 32px;">
+            <div>
+              <img src="./images/episode-second.svg" alt="Second episode image"/>
+            </div>
+            <div class="px-4">
+              <p class="white__text bg-dark d-flex justify-content-center" style="width: 136px; border-radius: 6px;">Tips & Tricks</p>
+              <p class="white__text pt-4" style="color: #118DA8;">Episode 2</p>
+              <h3 class="white__text episode__card-title">Mic tricks to take you to the next level</h3>
+              <p class="white__text episode__card-text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+              <button class="white__text btn btn-info">View Episode Details</button>
+            </div>
+          </div>
+          <div class="d-flex episode__card px-4 py-4" style="border-radius: 32px;">
+            <div>
+              <img src="./images/episode-third.svg" alt="Third episode image"/>
+            </div>
+            <div class="px-4 pb-5">
+              <p class="white__text bg-dark d-flex justify-content-center" style="width: 73px; border-radius: 6px;">Gear</p>
+              <p class="white__text pt-4" style="color: #118DA8;">Episode 1</p>
+              <h3 class="white__text episode__card-title">The best microphone under $200</h3>
+              <p class="white__text episode__card-text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+              <button class="white__text btn btn-info">View Episode Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center pt-5">
+      <div class="jacob__paulaner-container d-flex pt-5">
+        <div class="pt-5 d-flex flex-column">
+          <div class="arrow__circle"></div>
+          <p class="white__text pt-3" style="color: #118DA8;">Meet your host</p>
+          <h2 class="white__text jacob__paulaner-title ">Jacob Paulaner</h2>
+          <p class="white__text pt-2" style="opacity: 0.7; max-width: 500px;">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+          <p class="white__text pt-2" style="opacity: 0.7; max-width: 420px;">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+        </div>
+        <div>
+          <div>
+            <img src="./images/jacob-paulaner.svg" alt="Jacob Paulaner image"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-content-center mt-5">
+      <div class="subscribe__container mt-5">
+        <div class="d-flex">
+          <div>
+            <p style="font-size: 18px; font-weight: 400; line-height: 27px; color: #118DA8">Email Newsletter</p>
+            <h2 class="white__text" style="font-size: 72px; font-weight: 400; line-height: 80px; letter-spacing: 3px; max-width:431px;">Subscribe for updates</h2>
+          </div>
+          <div class="px-5">
+            <form>
+              <div>
+                <input type="text" placeholder="Name" style="background-color: #191919; border: unset; border-radius: 6px; color: #FFFFFF; opacity: 0.7; padding: 26px 338px 27px 19px;"/>
+              </div>
+              <div class="pt-3">
+                <input type="email" placeholder="Email" style="background-color: #191919; border: unset; border-radius: 6px; color: #FFFFFF; opacity: 0.7; padding: 26px 338px 27px 19px;"/>
+              </div>
+              <div class="pt-3">
+                <button class="btn btn-info white__text" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-content-center mt-5">
+      <div class="reviews__container d-flex justify-content-center align-content-center flex-wrap mt-5 gap-2">
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row ">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 250px; max-height: 130px;">I can’t recommend this podcast enough</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Betty Lacey</p>
+          </div>
+        </div>
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 240px; max-height: 130px;">Jacob is the best in the business</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Adam Driver</p>
+          </div>
+        </div>
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 240px; max-height: 130px;">A wealth of audio knowledge</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Marcus Brown</p>
+          </div>
+        </div>
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 250px; max-height: 130px;">Every episode is a gem!</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Jessica Knowl</p>
+          </div>
+        </div>
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 240px; max-height: 130px;">Whoa whoa, let me take some notes!</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Scott Adams</p>
+          </div>
+        </div>
+        <div class="review__card d-flex flex-column px-4 py-4">
+          <div class="d-flex flex-row">
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+            <div><img src="./images/star.svg" alt="Star icon"/></div>
+          </div>
+          <div>
+            <h3 class="white__text" style="max-width: 240px; max-height: 130px;">I’ve upped my game considerably since I started listening</h3>
+          </div>
+          <div>
+            <p class="white__text" style="opacity: 0.7;">Steven Blast</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="d-flex justify-content-center mt-5">
+    <div class="header__container d-flex mt-5">
+      <div class="d-flex flex-column mx-5">
+        <div>
+          <a href="#header"><img src="./images/logo.svg" alt="Logo image"/></a>
+        </div>
+        <div class="d-flex my-3">
+          <div class="mx-1">
+            <a href="#"><img src="./images/instagram-logo.svg" alt="Instagram logo"/></a>
+          </div>
+          <div class="mx-1">
+            <a href="#"><img src="./images/twitter-logo.svg" alt="Twitter logo"/></a>
+          </div>
+          <div class="">
+            <a href="#"><img src="./images/facebook-logo.svg" alt="Facebook logo"/></a>
+          </div>
+        </div>
+      </div>
+      <div class="mx-5">
+        <ul>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Home</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">About</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Episodes</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="mx-5">
+        <ul>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Style Guide</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Instructions</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Changelog</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Credit</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Powered by Webflow</a></li>
+          <li class="my-1"><a class="white__text links__decorator" href="#">Licenses</a></li>
+        </ul>
+      </div>
+      <div class="d-flex mx-5">
+        <div class="mx-2">
+          <a href="#"><img src="./images/spotify-logo.svg" alt="Spotify logo"/></a>
+        </div>
+        <div class="mx-2">
+          <a href="#"><img src="./images/pinterest-logo.svg" alt="Pinterest logo"/></a>
+        </div>
+        <div class="mx-2">
+          <a href="#"><img src="./images/first-radio-logo.svg" alt="Radio logo"/></a>
+        </div>
+        <div class="mx-2">
+          <a href="#"><img src="./images/itunes-logo.svg" alt="Itunes logo"/></a>
+        </div>
+        <div class="mx-2">
+          <a href="#"><img src="./images/second-radio-logo.svg" alt="Radio logo"/></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
